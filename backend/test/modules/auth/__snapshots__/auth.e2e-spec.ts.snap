@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`/auth POST /login should login with a user 1`] = `
+Object {
+  "token": Any<String>,
+  "user": Object {
+    "id": Any<String>,
+    "role": "admin",
+    "username": "test",
+  },
+}
+`;

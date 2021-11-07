@@ -1,0 +1,19 @@
+{
+  "name": "codeserk-web-boilerplate",
+  "version": "1.0.0",
+  "description": "Web boilerplate for web development.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:codeserk/web-boilerplate.git"
+  },
+  "author": {
+    "email": "josec89@gmail.com",
+    "name": "Jose Camara",
+    "url": "https://www.codeserk.es"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "moment": "^2.29.1"
+  }
+}

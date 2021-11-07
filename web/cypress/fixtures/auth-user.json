@@ -1,0 +1,8 @@
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MTc5ZTFmMTQzMzY3MGJkZTE2YTM1YjEiLCJ1c2VybmFtZSI6ImFkbWluIiwiaWF0IjoxNjM1NzAyMDU0LCJleHAiOjE2MzYzMDY4NTR9.91MN8PHHRBupiVT0QgO_vP8CFjJqr_aOYkYJdGVdQ10",
+  "user": {
+    "id": "6179e1f1433670bde16a35b1",
+    "username": "user-juan",
+    "role": "user"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "testRunner": "jest",
+  "runnerConfig": "e2e/config.json",
+  "skipLegacyWorkersInjection": true,
+  "apps": {
+    "android.debug": {
+      "type": "android.apk",
+      "binaryPath": "android/app/build/outputs/apk/debug/app-debug.apk",
+      "build": "cd android && ./gradlew app:assembleDebug app:assembleAndroidTest -DtestBuildType=debug && cd .."
+    },
+    "android.release": {
+      "type": "android.apk",
+      "binaryPath": "android/app/build/outputs/apk/release/app-release.apk",
+      "build": "cd android && ./gradlew app:assembleRelease app:assembleAndroidTest -DtestBuildType=release && cd .."
+    }
+  },
+  "devices": {
+    "emulator": {
+      "type": "android.emulator",
+      "device": {
+        "avdName": "Pixel_API_28_AOSP"
+      }
+    }
+  },
+  "configurations": {
+    "android.sim.debug": {
+      "device": "emulator",
+      "app": "android.debug"
+    },
+    "android.sim.release": {
+      "device": "emulator",
+      "app": "android.release"
+    }
+  }
+}

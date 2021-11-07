@@ -1,0 +1,41 @@
+[
+  {
+    "id": "617ecf61dbb1055896374882",
+    "userId": "617ed7262b488c769be9ce19",
+    "name": "Pizza",
+    "description": "I had a pizza",
+    "image": "/api/v1/media/617ecf60dbb105589637487e",
+    "addedAt": "2021-10-31T17:16:11.996Z"
+  },
+  {
+    "id": "617ecf5bdbb1055896374874",
+    "userId": "617ed7262b488c769be9ce1a",
+    "name": "Pizza",
+    "description": "I had a pizza",
+    "addedAt": "2021-10-31T17:16:07.684Z"
+  },
+  {
+    "id": "617ecf57dbb105589637486b",
+    "userId": "617ed7262b488c769be9ce1b",
+    "name": "Pizza",
+    "description": "I had a pizza",
+    "image": "/api/v1/media/617ecf56dbb1055896374867",
+    "addedAt": "2021-10-31T17:15:59.122Z"
+  },
+  {
+    "id": "617ecf46dbb10558963747ba",
+    "userId": "617ed7262b488c769be9ce1c",
+    "name": "Hamburger",
+    "description": "I had a pizza",
+    "image": "/api/v1/media/617ecf46dbb10558963747b6",
+    "addedAt": "2021-10-31T17:15:36.737Z"
+  },
+  {
+    "id": "617ecf38dbb10558963747af",
+    "userId": "617ed7262b488c769be9ce1d",
+    "name": "Taco!",
+    "description": "I had a pizza",
+    "image": "/api/v1/media/617ecf38dbb10558963747ab",
+    "addedAt": "2021-10-31T17:15:30.844Z"
+  }
+]
